@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="less/style.css">
 	<meta charset="utf-8">
 	<title>Pink</title>
 </head>
 <body>
-	<header>
-		<a href="index.html" class="link-index">PINK</a>
-		<nav class="main-nav">
-			<button class="main-nav__toggle" type="button">Открыть меню</button>
-			<div class="main-nav__wrapper">
-				<ul class="main-nav__list site-list">
-					<li class="site-list__item site-list__item--active">
-						<a href="">Главная</a>
-					</li>
-					<li class="site-list__item ">
-						<a href="photo.html">Фотографии</a>
-					</li>
-					<li class="site-list__item">
-						<a href="form.html">Конкурс</a>
-					</li>
-					<li class="site-list__item">
-						<a href="">HTML Acadrmy</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<img src="img/iphone-hand-mobile@2x.png" class="header-logo" width="320px" height="">
+	<header class="main-header">
+		<div class="flex-wrapper">
+			<a href="index.html" class="link-index"><img src="img/logo-pink-white-mobile.svg"></a>
+			<nav class="main-nav">
+				<button class="main-nav__toggle" type="button"><img src="img/icon-menu-burger.svg"></button>
+				<div class="main-nav__ display-none">
+					<ul class="main-nav__list site-list">
+						<li class="site-list__item site-list__item--active">
+							<a href="">Главная</a>
+						</li>
+						<li class="site-list__item ">
+							<a href="photo.html">Фотографии</a>
+						</li>
+						<li class="site-list__item">
+							<a href="form.html">Конкурс</a>
+						</li>
+						<li class="site-list__item">
+							<a href="">HTML Acadrmy</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<img src="img/iphone-hand-mobile@2x.png" class="header-logo" width="257" height="288">
 	</header>
 	<main>
 		<section class="download-menu">
