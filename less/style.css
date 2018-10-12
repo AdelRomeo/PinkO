@@ -11,6 +11,7 @@ body{
 	display: none;
 }
 
+
 /*Footer*/
 
 .flex-wrapper{
@@ -23,4 +24,50 @@ body{
 	background-image: url(../img/bg-back-mobile@4x.jpg);
 	background-size: 320px auto;
 	font-family: 'Open Sans Bold', sans-serif;
+}
+
+
+/*Часть загрузки*/
+
+.download-menu{
+	background-color: #11212F;
+}
+
+.download-menu__button{
+	font-family: 'Open Sans Bold', sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 18px;
+	border: 3px solid #ffffff;
+	border-radius: 50px;
+	padding: 17px;
+	margin-top: 27px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	width: 240px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.download-menu__platform-logo{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: baseline;
+	color: #ffffff;
+	padding-left: 57px;
+	padding-right: 57px;
+	padding-top: 20px;
+}
+
+.download-menu__platform-info{
+	font-family: 'Open Sans Light', sans-serif;
+	color: #B1B2B3;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	padding-left: 43px;
+	padding-right: 43px;
+	padding-bottom: 30px;
 }
