@@ -132,3 +132,34 @@ body{
 	background-color: #F2F2F2;
 	padding-top: 45px;
 }
+
+
+/*Комментарии*/
+
+.reviews{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 35px;
+
+}
+
+.invisible{
+	display: none;
+}
+
+.reviews__author-name{
+	font-family: 'Open Sans Bold', sans-serif;
+	color: #000000;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: -10px;
+}
+
+.reviews__text{
+	font-family: 'Open Sans Regular', sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	color: #707B84;
+	padding-bottom: 10px;
+}
