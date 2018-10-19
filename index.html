@@ -113,27 +113,29 @@
 
 		<section class="price">
 			<table class="price__list">
-				<caption class="price__list-name">СТАНДАРТ<br>3,99 USD</caption>
-				<tr class="">
-					<td class="price__name">Розовый фильтр</td>
-					<td class="price__value"><img src=""></td>
+				<caption class="price__list-name"><span class="price__title">СТАНДАРТ</span><br><span class="price__many">3,99 USD</span></caption>
+				<tr class="price__line">
+					<td class="price__name">РОЗОВЫЙ ФИЛЬТР</td>
+					<td class="price__value"><img src="img/icon-yes.svg"></td>
 				</tr>
-				<tr>
-					<td class="price__name">Смайлики</td>
-					<td class="price__value"><img src=""></td>
+				<tr class="price__line">
+					<td class="price__name">СМАЙЛИКИ</td>
+					<td class="price__value"><img src="img/icon-yes.svg"></td>
 				</tr>
-				<tr>
-					<td class="price__name">Комментарии</td>
-					<td class="price__value"><img src=""></td>
+				<tr class="price__line">
+					<td class="price__name">КОММЕНТАРИИ</td>
+					<td class="price__value"><img src="img/icon-no.svg"></td>
 				</tr>
 			</table>
-			<div class="price__toggles slider__toggles">
-				<button class="slider__toggle" type="button">1</button>
-				<button class="slider__toggle" type="button">2</button>
-				<button class="slider__toggle" type="button">3</button>
-			</div>
+			<div class="reviews__toggles slider__toggles--bottom">
+					<input class="slider__toggle btn1" id="b1" type="radio" name="setka2" value="1">			
+					<input class="slider__toggle btn2" id="b2" type="radio" checked="checked" name="setka2" value="2">
+					<input class="slider__toggle btn3" id="b3" type="radio" name="setka2" value="3">
+				</div>
 		</section>
 	</main>
+
+
 	<footer class="page-footer">
 		<b class="page-footer__title">Остались вопросы? Свяжитесь с нами!</b>
 		<ul class="page-footer__contacts">
