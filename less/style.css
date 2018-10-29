@@ -1,3 +1,4 @@
+@media (max-width: 400px){
 /*Общие стили*/
 
 html,
@@ -31,6 +32,10 @@ body{
 
 .download-menu{
 	background-color: #11212F;
+}
+
+.download-menu__title{
+	display: none;
 }
 
 .download-menu__button{
@@ -253,4 +258,72 @@ body{
 	font-size: 24px;
 	color: #d22856;
 	margin-top: -20px;
+}
+}
+
+
+@media (min-width: 401px)
+{
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		padding: 0;
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+	}
+
+
+	/*Footer*/
+	.main-header{
+		background-image: url(..//img/bg-back-tablet@2x.jpg);
+		background-repeat: no-repeat;
+		background-size: 1200px 853px;	
+		height: 853px;
+	}
+	
+	.main-nav{
+		position: relative;
+		background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+	}
+
+	.main-nav__toggle{
+		display: none;
+	}
+
+	.main-nav__wrapper{
+		width: 750px;
+		padding-left: 448px;
+		padding-top: 48px;
+		padding-bottom: 48px;
+		
+	}
+
+	.main-nav__list{
+		display: flex;
+		list-style-type: none;
+	}
+
+	.site-list__item{
+		margin-right: 79px;
+	}
+
+	.site-list__item-link{
+		font-family: 'Open Sans Regular', sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.link-index{
+		width: 90px;
+		height: 50px;
+		position: absolute;
+		left: 200px;
+		top: 44px;
+	}
 }
