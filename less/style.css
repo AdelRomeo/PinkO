@@ -27,6 +27,11 @@ body{
 	font-family: 'Open Sans Bold', sans-serif;
 }
 
+.header-logo{
+	width: 257px;
+	height: 288px;
+}
+
 
 /*Часть загрузки*/
 
@@ -276,6 +281,10 @@ body{
 		margin-top: 0;
 	}
 
+	.main-page{
+		position: relative;
+	}
+
 
 	/*Footer*/
 	.main-header{
@@ -283,6 +292,7 @@ body{
 		background-repeat: no-repeat;
 		background-size: 1200px 853px;	
 		height: 853px;
+		position: relative;
 	}
 	
 	.main-nav{
@@ -326,4 +336,66 @@ body{
 		left: 200px;
 		top: 44px;
 	}
+
+	.header-logo{
+		width: 568px;
+		position: absolute;
+		bottom: 0;
+		right: 172px;
+	}
+
+	.download-menu__button{
+	font-family: 'Open Sans Bold', sans-serif;
+	color: #ffffff;
+	font-size: 21px;
+	line-height: 18px;
+	border: 3px solid #ffffff;
+	border-radius: 50px;
+	padding: 17px;
+	display: inline-block;
+	width: 260px;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 40px;
+}
+
+	.download-menu{
+		position: absolute;
+		top: -635px;
+		width: 300px;
+		margin-left: 120px;
+	}
+
+	.download-menu__title{
+	display: block;
+	font-family: 'Open Sans Light', sans-serif;
+	color: #ffffff;
+	font-size: 50px;
+	line-height: 65px;
+	text-align: center;
+	margin-bottom: 45px; 
+	}
+
+	.download-menu__platform-logo{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: baseline;
+	color: #ffffff;
+	width: 210px;
+	padding-left: 35px;
+	padding-right: auto;
+	padding-top: 20px;
+	margin-bottom: 45px;
+}
+
+.download-menu__platform-info{
+	font-family: 'Open Sans Light', sans-serif;
+	color: #B1B2B3;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
 }
