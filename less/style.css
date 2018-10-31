@@ -89,6 +89,10 @@ body{
 	text-align: center;
 }
 
+.advantages__wrapper-logo__desctop{
+	display: none;
+}
+
 .advantages__names{
 	font-family: 'Open Sans Light', sans-serif;
 	background-color: #ffffff;
@@ -141,6 +145,10 @@ body{
 .advantages__wrapper-logo{
 	background-color: #F2F2F2;
 	padding-top: 45px;
+}
+
+.time24{
+	display: none;
 }
 
 
@@ -396,6 +404,136 @@ body{
 	line-height: 24px;
 	text-align: center;
 	padding-bottom: 30px;
+}
+
+
+/*Преимущества*/
+
+.advantages{
+	text-align: center;
+	background-color: #F2F2F2;
+}
+
+.advantages__names{
+	font-family: 'Open Sans Light', sans-serif;
+	font-size: 50px;
+	width: 100%;
+	padding-top: 65px;
+	color: #283645;
+	display: inline-block;
+	padding-bottom: 50px;
+	background-color: #FFFFFF;
+}
+
+.advantages__caption1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 734px;
+}
+
+.advantages__caption2{
+	width: 417px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.advantages__wrapper-logo{
+	display: none;
+}
+
+.advantages__wrapper-logo__desctop{
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 935px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #F2F2F2;
+}
+
+.advantages__list{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	width: 945px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 57px;
+}
+
+.advantages__item{
+	width: 242px;
+}
+
+.advantages__title{
+	font-family: 'Open Sans Bold', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	width: 224px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.advantages__description{
+	font-family: 'Open Sans Regular', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #283645;
+	margin-top: 23px;
+}
+
+.time24{
+	display: flex;
+	padding-top: 62px;
+	padding-bottom: 70px;
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	text-align: left;
+}
+
+.time24__timer{
+	
+}
+
+.time24 span{
+	font-family: 'Open Sans Bold', sans-serif;
+	font-size: 120px;
+	color: #F42357;
+	position: absolute;
+	top: 187px;
+	left: 85px;
+}
+
+.timer24__item{
+	width: 530px;
+	margin-left: 66px;
+	margin-top: 95px;
+}
+
+.timer24__title{
+	font-family: 'Open Sans Bold', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	margin-bottom: 24px;
+}
+
+.timer24__description{
+	font-family: 'Open Sans Regular', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #283645;
+	margin-bottom: 30px;
+}
+
+.timer24__link{
+	font-family: 'Open Sans Regular', sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #F42357;
 }
 
 }
